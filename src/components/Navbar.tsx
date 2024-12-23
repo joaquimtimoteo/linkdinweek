@@ -1,5 +1,4 @@
 import React from 'react'
-import logoImage from "../assets/images/logosaas.png"
 import MenuIcon from "../assets/icons/menu.svg"
 import Image from 'next/image'
 import Link from 'next/link'
@@ -12,7 +11,6 @@ const Navbar = () => {
           <div className="relative">
             <div className="absolute w-full top-2 bottom-0 bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] blur-md">
             </div>
-            <Image src={logoImage} alt="saas logo" className='h-12 w-12 relative'/>
           </div>
           <div className='border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden'>
             <MenuIcon className="text-white" />

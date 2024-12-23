@@ -44,7 +44,7 @@ const CallToAction = () => {
           Get instant access
         </h2>
         <p className="text-xl text-white/70 mt-5">
-        LinkedIn Week is designed to track your growth, set meaningful goals, and celebrate your accomplishments.
+        Stop Sending Applications. Start Attracting Opportunities
         </p>
         <form className="mt-10 flex flex-col sm:flex-row gap-2.5 max-w-sm mx-auto">
           <input

@@ -13,7 +13,7 @@ export default function Home() {
     <>
       {}
       <Head>
-        <title>LinkdinWeek</title>
+        <title>Turn Your LinkedIn Into a Job Magnet</title>
         <meta name="description" content="" />
         <meta name="keywords" content="next.js, landing page, modern web development" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,9 +23,9 @@ export default function Home() {
       <header>
 
       <Banner
-      message="A Mentorship Experience Tailored for You"
-      linkText="Join LinkedIn Week"
-      linkHref="#"
+      message="Global Career Accelerator: Turn Your LinkedIn Into a Job Magnet"
+      linkText="Click here to join our WhatsApp group!"
+      linkHref="https://wa.link/uvifca"
       />
 
       <Navbar />

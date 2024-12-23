@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import appScreen from "../assets/images/app-screen.png"
+import appScreen from "../assets/images/LinkedIn Job Magnet.jpg"
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef } from "react";
 
@@ -18,9 +18,9 @@ export const ProductShowcase = () => {
   return (
     <div className="bg-black text-white bg-gradient-to-b from-black to-[#5D2CA8] py-[72px] sm:py-24">
       <div className="container">
-        <h2 className="text-center text-4xl sm:text-5xl font-bold tracking-tighter">Easy-to-navigate experience</h2>
+        <h2 className="text-center text-4xl sm:text-5xl font-bold tracking-tighter text-blue-600">Global Career Accelerator</h2>
         <div className="max-w-xl mx-auto">
-          <p className="text-center text-xl text-white/70 mt-5">Easy-to-navigate experience designed to enhance your LinkedIn Week journey</p>
+          <p className="text-center text-xl text-white/70 mt-5">Join 30 other ambitious professionals ready to transform their LinkedIn presence.</p>
         </div>
         <motion.div
           style={{

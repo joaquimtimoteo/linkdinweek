@@ -4,16 +4,16 @@ import CountdownTimer from "./CountdownTimer";
 
 const features = [
   {
-    title: "Effortless Networking & Connections",
-    description: "Seamlessly connect with mentors, peers, and professionals to expand your network and unlock new opportunities during LinkedIn Week."
+    title: "What You'll Master in This Workshop",
+    description: "For Students: Build a standout LinkedIn profile before graduation.You want to attract opportunities from global companies"
   },
   {
-    title: "Goal Achievement and Progress Tracking",
-    description: "Set clear goals, track your progress, and stay motivated as you advance through LinkedIn Week activities and milestones."
+    title: "For Career Professionals:",
+    description: "Optimize your profile to showcase your expertise.Position yourself for international opportunities"
   },
   {
-    title: "Enhanced Data Security and Privacy",
-    description: "Your information remains secure with us. We prioritize privacy and ensure that your data is protected throughout LinkedIn Week."
+    title: "For Career Starters:",
+    description: "Create a magnetic LinkedIn presence from scratch.Attract recruiters from global companies"
   }
 ];
 
@@ -31,7 +31,8 @@ const Features = () => {
         <div> <CountdownTimer /></div>
         <h2 className='text-center font-bold text-4xl sm:text-4xl tracking-tighter'>Everything you need to boost your career</h2>
         <div className="max-w-xl mx-auto">
-          <p className='text-center mt-5 text-xl text-white/70'>Unlock smarter productivity during LinkedIn Week! Experience customizable task lists, seamless team collaboration, and intuitive progress tracking—all in one place. Take charge of your goals and elevate your professional journey effortlessly.</p>
+          <p className='text-center mt-5 text-xl text-white/70'>Join us on December 29th for an exclusive live workshop that will transform your LinkedIn profile into a powerful magnet for job offers – whether you are a student, mid-career professional, or just starting out.
+          </p>
         </div>
         <div className='mt-16 flex flex-col sm:flex-row gap-3 '>
           {features.map(({ title, description }) => (

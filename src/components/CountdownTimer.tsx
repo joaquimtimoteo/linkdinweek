@@ -36,7 +36,7 @@ const CountdownTimer = () => {
       <h1 className="text-center font-bold text-2xl sm:text-1xl tracking-tighter">
       Countdown to Success:
       </h1>
-      <p className="text-center font-bold text-3xl  text-purple-400">
+      <p className="text-center font-bold text-3xl  text-blue-600">
         {timeLeft
           ? `${timeLeft.days}d ${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`
           : "A atividade já começou!"}

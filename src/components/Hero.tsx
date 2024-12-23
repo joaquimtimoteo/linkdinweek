@@ -58,7 +58,8 @@ const Hero = () => {
         </div>
         <div className="flex justify-center">
           <p className='text-center text-xl mt-8 max-w-md'>
-            Celebrate the joy of accomplishment with an app designed to track progress, motivate your efforts, and celebrate your successes.
+          Join us on December 29th for an exclusive live workshop that will transform your LinkedIn profile into a powerful magnet for job offers – whether 
+          you are a student, mid-career professional, or just starting out.
           </p>
         </div>
         <div className="flex justify-center mt-8">

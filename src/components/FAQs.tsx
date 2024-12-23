@@ -7,19 +7,19 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const items = [
   {
-    question: "What are the key benefits of participating in LinkedIn Week mentorship?",
+    question: " Will this work for my industry?",
     answer: "Participating in LinkedIn Week gives you access to experienced mentors, personalized feedback, skill development, and the opportunity to connect with like-minded professionals. You'll expand your network, gain valuable insights, and accelerate your professional growth."
   },
   {
-    question: "How can I earn the LinkedIn Week certificate?",
+    question: " What if I can't attend live?",
     answer: "To earn your certificate, ensure active participation in sessions, engage with mentors and peers, and complete any assigned activities. Following the provided guidelines and being actively involved will help you secure your certificate."
   },
   {
-    question: "Do LinkedIn Week certificates hold any value or recognition?",
+    question: " Is this suitable for complete beginners?",
     answer: "Yes, LinkedIn Week certificates serve as proof of your professional development. They can be showcased on your LinkedIn profile, demonstrating your commitment to learning and growth, and enhancing your credibility in your professional field."
   },
   {
-    question: "Are there any additional perks for highly engaged participants?",
+    question: " Do I need an existing LinkedIn profile?",
     answer: "Absolutely! Highly engaged participants may receive bonuses like exclusive event invitations, premium networking opportunities with mentors, access to additional resources, and recognition in LinkedIn Week publications or groups."
   }
 ];

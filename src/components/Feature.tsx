@@ -15,7 +15,6 @@ const Feature = ({ title, description} : FeatureProps) => {
   const border = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const updateMousePosition = (e: MouseEvent) => {
-      // e.x and e.y are the mouse coordinates
       if(!border.current) return
       const borderRect = border.current?.getBoundingClientRect()
       offsetX.set(e.x - borderRect?.x)
